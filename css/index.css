@@ -1,0 +1,99 @@
+
+
+main{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('//www.rionegro.com.ar/wp-content/uploads/2025/06/auto-franco-colapinto-alpine-imolajpg-1.png?w=920&h=520&crop=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+    position: absolute;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cards div:hover{
+    box-shadow: 5px 5px rgba(32, 34, 33, 0.5);
+    transition: 1s;
+    margin: 6px;
+}
+
+
+#presentacion{
+    display: flex;
+    justify-content: center;
+    margin:60px auto 100px auto;
+    width: 800px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: rgb(254, 162, 209);
+}
+
+#presentacion p{
+    font-size: x-large;
+    font-style: oblique;
+    color: rgb(0, 92, 169);
+}
+
+
+#auto{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 4px solid black;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: rgb(254, 162, 209);
+}
+
+#colapinto{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 4px solid black;
+    /* margin-left: 5px; */
+    margin-top: 5px;
+    background-color: rgb(254, 162, 209);
+}
+
+#gasly{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 4px solid black;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: rgb(254, 162, 209);
+}
+
+
+h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+p{
+    justify-content: flex-start;
+    padding: 3px;
+}
+
+
+.bandera{
+    display: flex;
+    align-items: center;
+
+}
+
+.bandera img{
+    margin-left: 3px;
+}

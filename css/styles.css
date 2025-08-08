@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Exo 2", sans-serif;
+
+}
+
+header{
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEA2D1;
+    
+}
+
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.container-header h1{
+    margin-left: 30px;
+
+}
